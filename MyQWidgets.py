@@ -152,7 +152,7 @@ class AboutDialog(QDialog):
         self.setLayout(layout)
 
     def open_github(self):
-        QDesktopServices.openUrl(QUrl("https://github.com/"))
+        QDesktopServices.openUrl(QUrl("https://github.com/Aromanka/PyQt6-Pathological-Image-Analyzer"))
 
 
 class TutorialDialog(QDialog):
